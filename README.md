@@ -1,17 +1,14 @@
-# Xircuits Component Library Template
+# Xircuitphant
 
-This section should have a short description on what is does.
+Workflow for elphant using Xircuits.
 
-## Prerequisites
-
-A project may have prerequisites such as models that needs to be downloaded or non-python related setup. You may list them down here.
 
 ## Installation
 
 To use this component library, ensure you have Xircuits installed, then simply run:
 
 ```
-xircuits install https://github.com/your-organization/your-repository
+xircuits install https://github.com/JanNolten/xai_xircuitphant.git
 ```
 
 Alternatively you may manually copy the directory / clone or submodule the repository to your working Xircuits project directory then install the packages using:

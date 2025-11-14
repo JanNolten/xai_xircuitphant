@@ -1,7 +1,7 @@
 [project]
 name = "xai_xircuitphant"
 version = "0.1.0"
-description = "Workflow for elphant using Xircuits "
+description = "Workflow for elphant using Xircuits"
 authors = [{ name = "Jan Nolten", email = "j.nolten@fz-juelich.de" }]
 license = "Apache-2.0"
 readme = "README.md"
