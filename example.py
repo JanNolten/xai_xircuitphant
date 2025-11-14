@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from xai_components.base import SubGraphExecutor, InArg, OutArg, Component, xai_component, parse_bool
-from xai_components.xai_component_library_template.example_components import HelloComponentLibrary
+from xai_components.xai_template.example_components import HelloComponent
 
 @xai_component(type='xircuits_workflow')
 class example(Component):
@@ -9,9 +9,8 @@ class example(Component):
         super().__init__()
         self.__id__ = id
         self.__start_nodes__ = []
-        self.c_0 = HelloComponentLibrary()
-        self.c_0.__id__ = '08dc4630-7d62-4230-8ebb-b4907d5d4df7'
-        self.c_0.input_str.value = 'new component library!'
+        self.c_0 = HelloComponent()
+        self.c_0.__id__ = '189a88dd-c5f4-4796-9957-55b4e9852ab7'
         self.c_0.next = None
 
     def execute(self, ctx):
