@@ -5,7 +5,7 @@ Workflow for elphant using Xircuits.
 
 ## Installation
 
-To use this component library, ensure you have Xircuits installed, then simply run:
+To use this component library, ensure you have Xircuits installed, then simply run (currently does not work):
 
 ```
 xircuits install https://github.com/JanNolten/xai_xircuitphant.git
